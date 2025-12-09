@@ -1,0 +1,36 @@
+/* Navbar container */
+.navbar {
+  background-color: thistle;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar title */
+.navbar h1 {
+  color: black;
+  font-size: 22px;
+  margin: 0;
+}
+
+/* Links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Individual links */
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background-color: #f1f1f1;
+}
